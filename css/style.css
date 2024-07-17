@@ -1,0 +1,682 @@
+@import "normalize.css";
+
+@font-face {
+    font-family: 'Vazir';
+    font-style: normal;
+    font-weight: normal;
+    src: url("../webfonts/fonts/Vazir.eot");
+    src: url('../webfonts/fonts/Vazir.eot?#iefix') format('embedded-opentype'),
+        /* IE6-8 */ url('../webfonts/fonts/Vazir.woff2') format('woff2'),
+        /* FF39+,Chrome36+, Opera24+*/ url('../webfonts/fonts/Vazir.woff') format('woff'),
+        /* FF3.6+, IE9, Chrome6+, Saf5.1+*/ url('../webfonts/fonts/Vazir.ttf') format('truetype')
+}
+
+@font-face {
+    font-family: 'Vazir-FD';
+    font-style: normal;
+    font-weight: normal;
+    src: url("../webfonts/fonts/Vazir-FD.eot");
+    src: url('../webfonts/fonts/Vazir-FD.eot?#iefix') format('embedded-opentype'),
+        /* IE6-8 */ url('../webfonts/fonts/Vazir-FD.woff2') format('woff2'),
+        /* FF39+,Chrome36+, Opera24+*/ url('../webfonts/fonts/Vazir-FD.woff') format('woff'),
+        /* FF3.6+, IE9, Chrome6+, Saf5.1+*/ url('../webfonts/fonts/Vazir-FD.ttf') format('truetype')
+}
+
+html, body {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    direction: rtl;
+    font-family: 'Vazir' !important;
+    font-family: 'Vazir-FD' !important;
+    text-align: right;
+    overflow-x: hidden !important;
+    width: 100%;
+    height: auto;
+}
+
+.font10 {
+    font-size: 10px;
+}
+
+.font11 {
+    font-size: 11px;
+}
+
+.font12 {
+    font-size: 12px;
+}
+
+.font13 {
+    font-size: 13px;
+}
+
+.font14 {
+    font-size: 14px;
+}
+
+.font15 {
+    font-size: 15px;
+}
+
+.font16 {
+    font-size: 16px;
+}
+
+.font17 {
+    font-size: 17px;
+}
+
+.font18 {
+    font-size: 18px;
+}
+
+.font19 {
+    font-size: 19px;
+}
+
+.font20 {
+    font-size: 20px;
+}
+
+.font21 {
+    font-size: 21px;
+}
+
+.font22 {
+    font-size: 22px;
+}
+
+.font23 {
+    font-size: 24px;
+}
+
+.font25 {
+    font-size: 25px;
+}
+
+.font26 {
+    font-size: 26px;
+}
+
+.font27 {
+    font-size: 27px;
+}
+
+.font28 {
+    font-size: 28px;
+}
+
+.font29 {
+    font-size: 29px;
+}
+
+.font30 {
+    font-size: 30px;
+}
+
+.font31 {
+    font-size: 31px;
+}
+
+.font32 {
+    font-size: 32px;
+}
+
+.font33 {
+    font-size: 33px;
+}
+
+.font34 {
+    font-size: 34px;
+}
+
+.font35 {
+    font-size: 35px;
+}
+
+.font36 {
+    font-size: 36px;
+}
+
+.font37 {
+    font-size: 37px;
+}
+
+.font38 {
+    font-size: 38px;
+}
+
+.font39 {
+    font-size: 39px;
+}
+
+.font40 {
+    font-size: 40px;
+}
+
+.bold {
+    font-weight: bold
+}
+
+/*******************************************/
+header {
+    background-image: url("../images/header_back.png");
+    background-repeat: no-repeat;
+    width: 100%;
+    min-height: 800px;
+}
+
+li {
+    list-style: none;
+}
+
+.contain {
+    width: 100%;
+    font-family: 'Vazir';
+}
+
+.contain .logo {
+    color: #4c0692;
+    font-size: 35px;
+    font-weight: bold;
+    margin-top: 35px;
+    margin-bottom: 150px;
+    margin-right: 90px;
+    text-align: right;
+}
+
+.contain h3 {
+    color: #140a47;
+    font-size: 40px;
+    font-weight: bold;
+    letter-spacing: 3px;
+    text-align: center;
+}
+
+.contain h1 {
+    color: #140a47;
+    font-size: 65px;
+    font-weight: bold;
+    letter-spacing: 3px;
+    text-align: center;
+}
+
+.contain p {
+    color: #626262;
+    font-weight: bold;
+    margin-top: 80px;
+    text-align: center;
+}
+
+.contain .time .t-box {
+    padding: 0px 20px;
+    margin: 5px;
+    font-family: 'Vazir-FD' !important;
+}
+
+.border-left {
+    border-color: #626262 !important;
+}
+
+.t-box {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.t-box span:first-of-type {
+    font-size: 25px;
+    font-weight: bold;
+    text-align: center;
+}
+
+/******************************************************/
+.banner_works {
+    width: 100%;
+    height: 80%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.banner_works img {
+    width: 300px;
+    height: 250px;
+    background-position: center;
+    background-size: cover;
+}
+
+.works {
+    width: 100%;
+    min-height: 500px;
+    z-index: 1000;
+}
+
+.min {
+    display: block;
+    width: 40px;
+    height: 6px;
+    z-index: 1000;
+    background: linear-gradient(to right, #9A11B2, #8A43DA);
+    border-radius: 5px;
+    margin-bottom: 15px;
+}
+
+.works > p {
+    font-weight: bold;
+}
+
+.title-work {
+    display: flex;
+    margin: 15px 0;
+    margin-bottom: 30px;
+}
+
+.title-work .img-box {
+    margin: 10px 20px 10px 20px;
+    width: 50px;
+    height: 50px;
+    border-radius: 100px;
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+}
+
+.title-work .img-box .img-src1 {
+    width: 100%;
+    height: 100%;
+    background-size: cover;
+    background-position: center;
+    border-radius: 100px;
+    background-image: url("../images/fingerprint.png");
+    transition: 0.5s all;
+}
+
+.title-work .img-box .img-src1:hover {
+    background-image: url("../images/fingerprint-hover.png");
+    box-shadow: 0px 10px 20px #cda2ff;
+}
+
+.title-work .img-box .img-src2 {
+    width: 100%;
+    height: 100%;
+    background-size: cover;
+    background-position: center;
+    border-radius: 100px;
+    border: 1px solid transparent;
+    background-image: url("../images/shield.png"), linear-gradient(to right, #9F0CB4, #7722D8), radial-gradient(circle at top right, #9F0CB4, #7722D8);
+    background-origin: border-box;
+    background-clip: content-box, border-box;
+    transition: 0.5s all;
+}
+
+.title-work .img-box .img-src2:hover {
+    background-image: url("../images/shield-hover.png");
+    box-shadow: 0px 10px 20px #cda2ff;
+}
+
+.title-work .img-box .img-src3 {
+    width: 100%;
+    height: 100%;
+    background-size: cover;
+    background-position: center;
+    border-radius: 100px;
+    background-image: url("../images/shop.png");
+    transition: 0.5s all;
+}
+
+.title-work .img-box .img-src3:hover {
+    background-image: url("../images/shop-hover.png");
+    box-shadow: 0px 10px 20px #cda2ff;
+}
+
+.title-work div:last-child h6, .c-custom h6 {
+    font-weight: bold;
+}
+
+.title-work .off, .c-custom .off {
+    color: #8930C6;
+    font-weight: bold;
+}
+
+.title-work .price, .c-custom .price {
+    color: red;
+    font-weight: bold;
+}
+
+.title-work p {
+    margin-bottom: 5px;
+}
+
+.well {
+    margin-top: 60px;
+}
+
+.r-cutom {
+    display: flex;
+    justify-content: center;
+}
+
+.box-btn {
+    width: 100px;
+    height: 30px;
+    margin: 10px;
+    overflow: hidden;
+    border-radius: 50px;
+    border: 2px solid transparent;
+    background-image: linear-gradient(to right, #9F0CB4, #7722D8), radial-gradient(circle at top right, #9F0CB4, #7722D8);
+    background-origin: border-box;
+    background-clip: content-box, border-box;
+    cursor: pointer;
+    transition: 0.5s all;
+}
+
+.box-btn a {
+    width: 100%;
+    height: 100%;
+    background: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: bold;
+}
+
+.box-btn:hover {
+    color: #fff;
+    box-shadow: 0px 10px 20px #cda2ff;
+}
+
+.box-btn a:hover {
+    background: linear-gradient(to right, #9f0cb4, #7722D8);
+}
+
+/*******************************************************/
+
+.product-off {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 350px;
+    color: #fff;
+    background: linear-gradient(to right, #5A0966, #4D0692);
+}
+
+.custom-row-product-off {
+    width: 80%;
+    display: flex;
+    justify-content: space-evenly
+}
+
+.title-off {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 180px;
+    height: 90px;
+    margin: 10px 0px;
+    text-align: right;
+}
+
+.title-off h5 {
+    font-weight: bold;
+}
+
+.product-cont {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 155px;
+    height: 120px;
+    background-color: rgba(255, 255, 255, 0.1);
+    border-radius: 4px;
+    margin: 10px 0px;
+    cursor: pointer;
+}
+
+.product-cont span {
+    color: #fff;
+    opacity: 1;
+}
+
+.product-cont span:first-child {
+    font-weight: bold;
+}
+
+/******************************************************/
+
+.card-custom {
+    box-sizing: content-box;
+    border-radius: 10px;
+    width: 100%;
+    height: 90%;
+    border: 2px solid #9faab2;
+    overflow: hidden;
+    margin: 20px 0px;
+}
+
+.card-custom:hover {
+    border: 2px solid transparent;
+    background-image: linear-gradient(to right, #9F0CB4, #7722D8), radial-gradient(circle at top right, #9F0CB4, #7722D8);
+    background-origin: border-box;
+    background-clip: content-box, border-box;
+}
+
+.c-custom {
+    background-color: #fff;
+}
+
+.card-header.c-custom {
+    padding: 0;
+    border-bottom: 0;
+}
+
+.card-header.c-custom figure img {
+    width: 100%;
+    height: auto;
+    background-position: center;
+    background-size: cover;
+}
+
+/*******************************************************/
+.off-box {
+    width: 100%;
+    height: 100%;
+    padding: 20px;
+}
+
+.off-box p:last-child {
+    color: #606060;
+}
+
+.send-off-box {
+    width: 100%;
+    height: 50px;
+    overflow: hidden;
+    border-radius: 7px;
+    border: 2px solid transparent;
+    background-image: linear-gradient(to right, #9810B3, #7722D8), radial-gradient(circle at top right, #9810B3, #7722D8);
+    background-origin: border-box;
+    background-clip: content-box, border-box;
+    box-sizing: border-box;
+}
+
+.input-send-box {
+    height: 100%;
+    width: 75%;
+    border: none;
+    outline: none;
+    padding-right: 5px;
+    padding-left: 5px;
+    color: #606060;
+}
+
+.btn-send {
+    height: 100%;
+    width: 25%;
+    color: #fff;
+    background: linear-gradient(to right, #9810B3, #7311D2);
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: center;
+    align-items: center;
+}
+
+.send-off-box a {
+    text-decoration: none;
+    transition: 0.3s all;
+}
+
+.send-off-box .btn-send:hover {
+    background: #fff;
+    color: #606060;
+}
+
+.takhfif {
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/*********************************************************/
+footer {
+    width: 100%;
+    min-height: 250px;
+    background: linear-gradient(to right, #5A0966, #4D0692);
+    color: #fff;
+}
+
+.container2 {
+    width: 70%;
+}
+
+.copyright {
+    width: 100%;
+    min-height: 30px;
+    background: #320064;
+}
+
+.flex {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.scrollToTop {
+    position: fixed;
+    right: 20px;
+    bottom: 20px;
+    transition: 0.3s all;
+    width: 40px;
+    height: 40px;
+    background: linear-gradient(to right, #8a0b9c, #6806bb);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: 0.5s all;
+}
+
+.scrollToTop a {
+    color: #fff;
+}
+
+.scrollToTop:hover {
+    opacity: 0.7;
+}
+
+/**********************Media Query************************/
+@media (min-width: 1200px) {
+    .box-btn a {
+        font-size: 9px;
+    }
+
+    .custom-row {
+        width: 65%;
+    }
+
+    .card-custom .card-body h6 {
+        font-size: 14px;
+    }
+}
+
+@media (max-width: 1200px) {
+    .box-btn a {
+        font-size: 10px;
+    }
+
+    .c-custom > div > span {
+        font-size: 13px;
+    }
+
+    .c-custom > div > sup > del {
+        font-size: 10px;
+    }
+
+    .custom-row {
+        width: 77%;
+    }
+
+    .card-custom .card-body h6 {
+        font-size: 14px;
+    }
+
+    .title-off {
+        width: 100%;
+        text-align: center;
+    }
+}
+
+@media (max-width: 992px) {
+    header {
+        background: linear-gradient(45deg, #fff, #ada8af);
+    }
+
+    .custom-row {
+        width: 85%;
+    }
+
+    .card-custom .card-body h6 {
+        font-size: 13px;
+    }
+
+    .card-custom .card-body span {
+        font-size: 12px;
+    }
+
+    .card-custom .card-body sup del {
+        font-size: 9px;
+    }
+}
+
+@media (max-width: 768px) {
+    .custom-row {
+        width: 70%;
+    }
+}
+
+@media (max-width: 576px) {
+    .contain .logo {
+        margin: 50px 0 50px 0;
+        font-size: 50px;
+        text-align: center;
+    }
+
+    .title-work .img-box {
+        margin: 10px;
+        width: 40px;
+        height: 40px;
+    }
+
+    .title-work div:last-child {
+        width: 75%;
+    }
+
+}
